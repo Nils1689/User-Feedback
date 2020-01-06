@@ -1,6 +1,6 @@
 (ns clj.Email)
 
-(defn -main []
+(defn sendEmail [message]
 
   (println "Hello world, the time is")
 
