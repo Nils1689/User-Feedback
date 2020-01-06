@@ -1,5 +1,8 @@
-(ns clj.feedback
-  (:require [postal.core :as p]))
+(ns clj.lib.feedback
+  (:require [hiccup.core :as c]
+            [postal.core :as p]
+            )
+  )
 
 (defn prepare-email
   "Prepares the email in the Postal data format."
