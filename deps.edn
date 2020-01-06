@@ -1,2 +1,6 @@
-{:deps
- {clj-time {:mvn/version "0.14.2"}}}
+{:mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://clojars.org/repo"}}
+
+ :deps {hiccup {:mvn/version "1.0.5"}
+        com.draines/postal {:mvn/version "2.0.2"}}
+ }
